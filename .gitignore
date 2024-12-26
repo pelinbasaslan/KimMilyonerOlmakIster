@@ -1,0 +1,34 @@
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer files (32-bit)
+*.pdb
+
+# Windows installer files (64-bit)
+*.ilk
+
+# Windows Installer related files
+*.bak
+
+# .NET Core build results
+bin/
+obj/
+
+# .NET Core package cache
+.nuget/
+
+# User-specific files
+.vscode/
+.idea/
+
+# ASP.NET specific files
+# https://github.com/aspnet/Docs/issues/7414
+project.lock.json
+project.fragment.lock.json
