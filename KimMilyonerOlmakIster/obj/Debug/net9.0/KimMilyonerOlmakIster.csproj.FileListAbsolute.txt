@@ -12,3 +12,4 @@
 /Users/pelinsubasaslan/Patika_week1/KimMilyonerOlmakIster/KimMilyonerOlmakIster/obj/Debug/net9.0/KimMilyonerOlmakIster.pdb
 /Users/pelinsubasaslan/Patika_week1/KimMilyonerOlmakIster/KimMilyonerOlmakIster/obj/Debug/net9.0/KimMilyonerOlmakIster.genruntimeconfig.cache
 /Users/pelinsubasaslan/Patika_week1/KimMilyonerOlmakIster/KimMilyonerOlmakIster/obj/Debug/net9.0/ref/KimMilyonerOlmakIster.dll
+/Users/pelinsubasaslan/Patika_week1/KimMilyonerOlmakIster/KimMilyonerOlmakIster/obj/Debug/net9.0/KimMilyonerOlmakIster.sourcelink.json

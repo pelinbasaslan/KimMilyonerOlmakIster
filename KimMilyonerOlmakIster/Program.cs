@@ -58,29 +58,41 @@ class Program
                         Console.WriteLine("Kaybettiniz.");
                     }
                 }
+                else
+                {
+                    Console.WriteLine("Kaybettiniz.");
+                }
             }
         }
         else
         {
             Console.WriteLine("Yanlış Cevap");
-            //3.soruya geçecek.
-            Console.WriteLine("3 -> 5 * 2 + 8 / 2 - 2 işleminin sonucu kaçtır ?");
-            Console.WriteLine("a) 7 b) 12 ");
-            Console.WriteLine("Cevabınız nedir?");
-            string thirdAnswer = Console.ReadLine();
-            if (thirdAnswer == "b" || thirdAnswer == "B")
+            if (correctAnswers == 0)
             {
-                Console.WriteLine("Doğru Cevap.");
-                correctAnswers += 1;
-                if (correctAnswers == 2)
+                Console.WriteLine("Kaybettiniz.");
+            }
+            else
+            {
+                //3.soruya geçecek.
+                Console.WriteLine("3 -> 5 * 2 + 8 / 2 - 2 işleminin sonucu kaçtır ?");
+                Console.WriteLine("a) 7 b) 12 ");
+                Console.WriteLine("Cevabınız nedir?");
+                string thirdAnswer = Console.ReadLine();
+                if (thirdAnswer == "b" || thirdAnswer == "B")
                 {
-                    Console.WriteLine("kazandınız.");
-                }
-                else
-                {
-                    Console.WriteLine("kaybettiniz.");
+                    Console.WriteLine("Doğru Cevap.");
+                    correctAnswers += 1;
+                    if (correctAnswers == 2)
+                    {
+                        Console.WriteLine("kazandınız.");
+                    }
+                    else
+                    {
+                        Console.WriteLine("kaybettiniz.");
+                    }
                 }
             }
+
 
         }
 
