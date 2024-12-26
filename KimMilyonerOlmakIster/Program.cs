@@ -9,6 +9,80 @@ class Program
         //doğru cevap değişkeni
         int correctAnswers = 0;
 
+        Console.WriteLine("1 -> Kızınca tüküren hayvan hangisidir? a) Lama b) Deve");
+        Console.Write("Cevabınız nedir?:");
+        string answerTrue = "Tebrikler.Doğru Cevap.";
+        string answerFalse = "Yanlış Cevap.";
+        string answer = Console.ReadLine().ToLower();
+        switch (answer)
+        {
+            case "a":
+                Console.WriteLine(answerTrue);
+                correctAnswers++;
+                break;
+            case "b":
+                Console.WriteLine(answerFalse);
+                break;
+            default:
+                Console.WriteLine("Yanlış girdi.");
+                break;
+        }
+
+        Console.WriteLine("2 -> Dünya'ya en yakın gezegen hangisidir ? a) Venüs b) Mars");
+        Console.Write("Cevabınız nedir?");
+        string secondAnswer = Console.ReadLine().ToLower();
+
+        switch (secondAnswer)
+        {
+            case "a":
+                Console.WriteLine(answerTrue);
+                correctAnswers++;
+                break;
+            case "b":
+                Console.WriteLine(answerFalse);
+                break;
+            default:
+                Console.WriteLine("Yanlış girdi.");
+                break;
+        }
+
+        if (correctAnswers != 2)
+        {
+            Console.WriteLine("3 -> 5 * 2 + 8 / 2 - 2 işleminin sonucu kaçtır ? a) 7 b) 12");
+            Console.WriteLine("Cevabınız nedir?");
+            string thirdAnswer = Console.ReadLine();
+            switch (thirdAnswer)
+            {
+                case "a":
+                    Console.WriteLine(answerFalse);
+                    break;
+                case "b":
+                    Console.WriteLine(answerTrue);
+                    correctAnswers++;
+                    break;
+                default:
+                    Console.WriteLine("Yanlış girdi.");
+                    break;
+            }
+            if (correctAnswers != 2)
+            {
+                Console.WriteLine("Kaybettiniz.");
+            }
+            else
+            {
+                Console.WriteLine("Tebrikler. Kazandınız.");
+            }
+
+        }
+        else
+        {
+            Console.WriteLine("Tebrikler. Kazandınız.");
+        }
+
+
+
+
+        /*
         //ilk soru
         Console.WriteLine("1 -> Kızınca tüküren hayvan hangisidir ?");
         Console.WriteLine("a) Lama b) Deve ");
@@ -96,6 +170,6 @@ class Program
 
         }
 
-
+        */
     }
 }
